@@ -108,7 +108,7 @@ fn main() {
         println!("Ya Ya you guessed right, u little punk ");
     }
     else{
-        println!("fuck off! U illiterate FUCK!!!!");
+        println!("fuck off! U illiterate FUCK!!!! \nthe correct answer is: {}",secret.answer);
     }
 }
 
