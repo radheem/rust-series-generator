@@ -11,12 +11,21 @@ pub struct Guess{
 
 impl Guess{
     fn new() -> Guess{
+        /*
+            the constructor
+        */
         Guess{
             series: [0,1,2,3,4],
             answer: 0
         }
     }
     fn compare(&self,answer: i32) -> bool{
+        /*
+            compare the user answer with the program generated answer
+            input:
+                answer: the user's answer
+                self: the series object with the program generated answer
+        */
         if self.answer == answer {
             return true
         }
