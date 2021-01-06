@@ -103,7 +103,7 @@ fn main() {
     }
     guesstr = "".to_string();
 
-    // print sequence
+    // print series
     println!("The series: {:?}\nGuess the next number Ma Genius Baby:",secret.series);
     
     //Taking user input 
